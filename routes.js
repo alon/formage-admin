@@ -448,6 +448,8 @@ var routes = {
                     pageTitle: 'Admin - ' + model.model.label,
                     rootPath: MongooseAdmin.singleton.root,
 
+                    list_header: model.options.list_header,
+
                     model_name: name,
                     model: model,
                     list_fields: model.options.list,

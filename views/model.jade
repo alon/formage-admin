@@ -8,6 +8,9 @@ block body
     .page-header
         h2 #{model.label}
 
+    if (list_header)
+        div !{list_header}
+
     #content.row
         div(class='span#{filters.length ? 9 : 12}')
             .btn-toolbar.clearfix
